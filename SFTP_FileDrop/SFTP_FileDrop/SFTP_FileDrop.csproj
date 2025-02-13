@@ -9,14 +9,10 @@
 
   <ItemGroup>
     <None Remove="appSettings.json" />
-    <None Remove="testfile.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="appSettings.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="testfile.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
@@ -28,6 +24,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.2" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="9.0.2" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.2" />
     <PackageReference Include="SSH.NET" Version="2024.2.0" />
   </ItemGroup>
 
