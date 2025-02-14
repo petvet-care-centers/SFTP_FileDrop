@@ -6,13 +6,13 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SFTP_FileDrop.Classes
+namespace SFTP_FileDrop_WorkerService.Classes
 {
     internal class Log
     {
         private readonly IConfiguration _config;
 
-        
+
 
         private static readonly object _logLock = new object();
         private static string _timeStamp => $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}]";
